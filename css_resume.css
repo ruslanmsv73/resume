@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.info-text {
+    font-family: italic;
+    color: #414246;
+}
+
+@media (max-width: 750px) {
+    .info-text, .MR {
+        text-align: center;
+    }
+    .img {
+        display: block;
+        margin: auto;
+    }
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.sss {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.img {
+    max-width: 400px;
+    box-shadow: 4px 4px 14px rgba(0,0,0, .25);
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    opacity:0.8;
+}
+
+a {
+    transition: all .3s;
+}
+a:hover {
+    color: black;
+    font-size: 18px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.table th {
+    padding-bottom: 10px;
+}
+
+.sms label {
+    margin-bottom: 10px;
+}
+
+.form h3 {
+    text-align: center;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .from-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 46%;
+}
+
+@media (max-width: 750px) {
+
+ .form-row .from-group {
+margin-bottom: 15px;
+}
+}
+
+.from-group input,
+.from-group textarea {
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
